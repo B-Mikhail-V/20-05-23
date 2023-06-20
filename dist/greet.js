@@ -1,1 +1,3 @@
-console.log('Hello, world');
+export default function greet (name) {
+  console.log(`Привет, ${name}!`)
+}

@@ -1,3 +1,5 @@
-import "./greet.js";
+import greet from './greet.js'
 
-console.log('app works');
+console.log('app works')
+
+greet('Mike')

@@ -1,0 +1,31 @@
+{
+  "name": "20-05-23",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "browser-sync start --server dist --files 'js/*.js' ",
+    "lint": "eslint ./dist",
+    "lint-fix": "eslint --fix ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/B-Mikhail-V/20-05-23.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/B-Mikhail-V/20-05-23/issues"
+  },
+  "homepage": "https://github.com/B-Mikhail-V/20-05-23#readme",
+  "devDependencies": {
+    "browser-sync": "^2.29.3",
+    "eslint": "^8.43.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}
